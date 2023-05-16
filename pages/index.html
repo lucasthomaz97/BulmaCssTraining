@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"/>
+</head>
+<body>
+
+    <!--navbar-->
+    <nav class="navbar has-shadow is-white">
+        <!--logo / brand-->
+        <div class="navbar-brand">
+            <a class="navbar-item">
+                <img src="../assets/logo.png" alt="logo" style="max-height: 70px" class="py-2 px-2"/>
+            </a>
+            <a class="navbar-burger" id="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+        </div>
+        
+        <div class="navbar-menu" id="nav-links">
+            <div class="navbar-end">
+                <a class="navbar-item">My Account</a>
+                <a class="navbar-item"> Shopping Cart (0)</a>
+            </div>
+        </div>
+    </nav>
+
+    <!--breadcrumb-->
+    <div class="section pt-4 pb-0">
+        <nav class="breadcrumb has-arrow-separator">
+            <ul class="container">
+                <li><a class="has-text-grey">Coffee Ninja</a></li>
+                <li><a class="has-text-grey">Shop</a></li>
+                <li class="is-active"><a>Docker Dark Crumb</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!--product info-->
+    <section class="section">
+        <div class="container">
+            <div class="columns is-vcentered is-multiline">
+                <div class="column is-6-tablet is-3-desktop">
+                    <h1 class="is-size-3-mobile is-size-1-desktop title">Docker</h1>
+                    <h2 class="is-size-4-mobile is-size-2-desktop subtitle">Dark Roast</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, et blanditiis laborum odio architecto nisi nemo cumque rem tempora temporibus?</p>
+                </div>
+                <div class="column is-6-tablet is-5-desktop has-text-centered">
+                    <img src="../assets/product.png" alt="docker coffee image" class="px-6">
+                </div>
+                <div class="column is-12-tablet is-4-desktop">
+                    <div class="is-size-4 mb-4">€10.94</div>
+                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, totam.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="../js/nav_burger_toggle.js"></script>
+</body>
+</html>
